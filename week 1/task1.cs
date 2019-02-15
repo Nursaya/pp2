@@ -10,7 +10,7 @@ namespace task1
     {/// <summary>
      /// the function to find prime numbers from the array
      /// </summary>
-     /// <param name="x"></param>
+     /// <param name="y"></param>
      /// <returns></returns>
         public static bool IsPrime(int y)
         {
