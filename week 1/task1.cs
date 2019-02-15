@@ -12,15 +12,15 @@ namespace task1
      /// </summary>
      /// <param name="x"></param>
      /// <returns></returns>
-        public static bool IsPrime(int x)
+        public static bool IsPrime(int y)
         {
-            if (x <= 1) // by definition of prime numbers: they have to be more than 1
+            if (y <= 1) // by definition of prime numbers: they have to be more than 1
             {
                 return false;
             }
-            for (int i = 2; i <= Math.Sqrt(x); ++i)
+            for (int i = 2; i <= Math.Sqrt(y); ++i)
             {
-                if (x % i == 0) //by definition prime numbers can be divided by 1 and themselves only
+                if (y % i == 0) //by definition prime numbers can be divided by 1 and themselves only
                 {
                     return false;
                 }
