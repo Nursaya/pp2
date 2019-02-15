@@ -14,7 +14,7 @@ namespace task1
      /// <returns></returns>
         public static bool IsPrime(int y)
         {
-            if (y <= 1) // by definition of prime numbers: they have to be more than 1
+            if (y <= 1) // by definition of prime numbers: they have to be more than 1 and not equal to 1
             {
                 return false;
             }
